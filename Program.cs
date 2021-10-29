@@ -29,7 +29,7 @@ namespace AlgorithmPrograms
                         Permutations.Permutate(str, 0, n - 1);
                         break;
                     case 2:
-                        string txtpath = File.ReadAllText(@"C:\Users\HP\source\repos\AlgorithmPrograms\AlgorithmPrograms\algo.txt");
+                        string txtpath = File.ReadAllText(@"C:\Users\hp\source\repos\AlgorithmPrograms\AlgorithmPrograms\algo.txt");
                         List<string> words = new List<string>(txtpath.Split());
                         words.Sort();
                         BinarySearch.BinarySearchWord(words);
